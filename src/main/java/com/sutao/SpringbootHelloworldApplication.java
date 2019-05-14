@@ -15,7 +15,7 @@ public class SpringbootHelloworldApplication {
     @RequestMapping("/")
     @ResponseBody
     public String hello(){
-        return "hello world！";
+        return "update hello world！";
     }
 
 
